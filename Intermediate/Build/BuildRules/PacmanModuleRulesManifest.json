@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Users\\24267\\Documents\\Unreal Projects\\Pacman\\Source\\Pacman\\Pacman.Build.cs",
+		"D:\\Users\\24267\\Documents\\Unreal Projects\\Pacman\\Source\\Pacman.Target.cs",
+		"D:\\Users\\24267\\Documents\\Unreal Projects\\Pacman\\Source\\PacmanEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
