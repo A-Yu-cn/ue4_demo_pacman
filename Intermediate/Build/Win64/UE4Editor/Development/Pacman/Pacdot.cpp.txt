@@ -1,7 +1,0 @@
-D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\Definitions.Pacman.h
-D:\Users\24267\Documents\Unreal Projects\Pacman\Source\Pacman\Pacdot.h
-D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Inc\Pacman\Pacdot.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

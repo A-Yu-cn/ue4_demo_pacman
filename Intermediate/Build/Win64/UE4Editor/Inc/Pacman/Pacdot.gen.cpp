@@ -41,6 +41,11 @@ void EmptyLinkFunctionForGeneratedCodePacdot() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PacdotCollision_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PacdotCollision;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsSuperPacdot_MetaData[];
+#endif
+		static void NewProp_bIsSuperPacdot_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsSuperPacdot;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,7 +56,9 @@ void EmptyLinkFunctionForGeneratedCodePacdot() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacdot_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "IncludePath", "Pacdot.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Pacdot.h" },
 	};
 #endif
@@ -71,9 +78,21 @@ void EmptyLinkFunctionForGeneratedCodePacdot() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacdot_Statics::NewProp_PacdotCollision = { "PacdotCollision", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APacdot, PacdotCollision), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APacdot_Statics::NewProp_PacdotCollision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APacdot_Statics::NewProp_PacdotCollision_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot_MetaData[] = {
+		{ "Category", "Pacdot" },
+		{ "ModuleRelativePath", "Pacdot.h" },
+	};
+#endif
+	void Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot_SetBit(void* Obj)
+	{
+		((APacdot*)Obj)->bIsSuperPacdot = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot = { "bIsSuperPacdot", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APacdot), &Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot_SetBit, METADATA_PARAMS(Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APacdot_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacdot_Statics::NewProp_PacdotDisplayMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacdot_Statics::NewProp_PacdotCollision,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacdot_Statics::NewProp_bIsSuperPacdot,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APacdot_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APacdot>::IsAbstract,
@@ -102,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodePacdot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APacdot, 1756782346);
+	IMPLEMENT_CLASS(APacdot, 1009308667);
 	template<> PACMAN_API UClass* StaticClass<APacdot>()
 	{
 		return APacdot::StaticClass();

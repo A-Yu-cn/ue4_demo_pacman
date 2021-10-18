@@ -9,7 +9,7 @@
 APacdot::APacdot()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 	
 	PacdotCollision = CreateDefaultSubobject<USphereComponent>(TEXT("PacdotCollision"));
 	PacdotDisplayMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PacdotDisplayMesh"));

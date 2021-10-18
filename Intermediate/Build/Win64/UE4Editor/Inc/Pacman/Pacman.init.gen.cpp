@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePacman_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB0C0796C,
+				0x7C0B5F3C,
 				0xFC1D9852,
 				METADATA_PARAMS(nullptr, 0)
 			};

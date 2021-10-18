@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Pacdot.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class PACMAN_API APacdot : public AActor
 {
 	GENERATED_BODY()
@@ -20,6 +20,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class USphereComponent* PacdotCollision;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bIsSuperPacdot = false;
 
 protected:
 	// Called when the game starts or when spawned
