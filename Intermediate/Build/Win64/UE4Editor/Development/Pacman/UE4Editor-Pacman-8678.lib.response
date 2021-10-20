@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Pacman-8678.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\PacmanEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\Pacdot.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\Pacman.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\PacmanEnemy.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\PacmanGameModeBase.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\PacmanPlayer.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\Pacdot.gen.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\Pacman.init.gen.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\PacmanEnemy.gen.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\PacmanGameModeBase.gen.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\PacmanPlayer.gen.cpp.obj"
+"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\Default.rc2.res"
+/OUT:"D:\Users\24267\Documents\Unreal Projects\Pacman\Intermediate\Build\Win64\UE4Editor\Development\Pacman\UE4Editor-Pacman-8678.lib"
+/INCLUDE:IMPLEMENT_MODULE_Pacman

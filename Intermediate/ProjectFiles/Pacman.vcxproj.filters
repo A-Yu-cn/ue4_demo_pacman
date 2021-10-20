@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Pacman.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BEEEADE5-A382-41F7-98F5-7F86DF128CAA}</UniqueIdentifier>
+      <UniqueIdentifier>{D94C618B-232C-4C6A-A1C9-CFC1DDACE871}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Pacman.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\PacmanEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\LICENSE" />
     <Filter Include="Config">
-      <UniqueIdentifier>{65450E19-987D-4EE6-A088-D457F1480616}</UniqueIdentifier>
+      <UniqueIdentifier>{1A08B91D-FE56-4C0F-8217-BF8FE27FABCF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +26,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Pacman">
-      <UniqueIdentifier>{C0EAE5D0-CFF7-4111-9A52-385C6FFD653E}</UniqueIdentifier>
+      <UniqueIdentifier>{A72CD85A-B97C-4561-A5E1-5FE50173ED5C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Pacman\Pacdot.cpp">
       <Filter>Source\Pacman</Filter>
@@ -41,10 +47,22 @@
     <ClInclude Include="..\..\Source\Pacman\Pacman.h">
       <Filter>Source\Pacman</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Pacman\PacmanEnemy.cpp">
+      <Filter>Source\Pacman</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pacman\PacmanEnemy.h">
+      <Filter>Source\Pacman</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Pacman\PacmanGameModeBase.cpp">
       <Filter>Source\Pacman</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Pacman\PacmanGameModeBase.h">
+      <Filter>Source\Pacman</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pacman\PacmanPlayer.cpp">
+      <Filter>Source\Pacman</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pacman\PacmanPlayer.h">
       <Filter>Source\Pacman</Filter>
     </ClInclude>
   </ItemGroup>
